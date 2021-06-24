@@ -1,5 +1,5 @@
 import random
 
-l = [1, 2, 3, 4]
+l = ["Sonoda", "Kurisu", "Aoki", "Nakazawa", "Kobayashi", "Asahi"]
 
-print(random.sample(l, 4))
+print(random.sample(l, len(l)))
